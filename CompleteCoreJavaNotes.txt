@@ -68,5 +68,76 @@ to develop web application
 2.jdbc-get data while processing
 3.servelets-processing
 -----------------------------------------------------------------------------------------
+convention while using this
+
+1. class : StudentDetails;
+2. variable : studentDetails;
+3. method : studentdetails();
+4. Constructor : StudentDetails();
+-----------------------------------------------------------------------------------------
+while saving the programs varies in different ide
+
+class StudentDetails
+{
+//any name can be given while saving because public is not used
+}
+
+public class StudentDetails
+{
+//class name should be given if we give other name it will show error
+}
+-----------------------------------------------------------------------------------------
+main method in java
+
+public static void main(String[] args)
+
+-we can interchange and write public and static
+
+public - to call by jvm from anywhere
+static - complier can call it without th creation of an object or before
+void - main() method wont return anyValue to jvm
+main - we can change but customization of jvm must be done
+String[] args - command line argument
+
+-if no static then every object wanted to create new main class
+
+-non static - specific to only 1 object [acc_num]
+-static - common to more than  1 object [ifsc]
+
+-the above syntax is very strict if we perform any changes we will get runtime exception saying "NoSuchMethodError:main"
+
+-instead of args we can use anything
+
+-we can declare in main()
+final - child depend on parent
+Synchronized
+Strictfp
+-----------------------------------------------------------------------------------------
+example
+
+class Test
+{
+final static synchronized Strictfp public void main(String...args)
+{
+System.out.println("void main");
+}
+}
+//void main
+-----------------------------------------------------------------------------------------
+About System.out.println();
+
+class Test                              //Test is a class name
+{                                      //s is a static variable present in Test Class of type String
+static String s="Java";               
+}
+Test.s.length();                       //.length() is a method present in string class
+--------
+class System                           //System is a class present in javaLangPackage
+{
+static PrintStream out;                //out is a static variable present in system class of type PrintStream
+}
+System.out.println("Hello");           //println() is a method present in print stream class
+-----------------------------------------------------------------------------------------
+
 
 
