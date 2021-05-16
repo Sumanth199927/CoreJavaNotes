@@ -139,9 +139,9 @@ static PrintStream out;                //out is a static variable present in sys
 System.out.println("Hello");           //println() is a method present in print stream class
 -----------------------------------------------------------------------------------------
 Terminologies
-    |
+   |
 datatypes
----------------------------------------------------------------------------------------------------------
+   |-----------------------------------------------------------------------------------------------------|
 primitive                                                                                           non primitive
    |----------------------------|                                                             |--------|--------|
 boolean                       numeric                                                      String   Array     Etc
@@ -154,5 +154,5 @@ Boolean             character             integral
                     Byte      short      int      long                               float           double
                                            
                                         
-                                           
+
 
