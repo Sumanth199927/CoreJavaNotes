@@ -139,7 +139,9 @@ static PrintStream out;                //out is a static variable present in sys
 System.out.println("Hello");           //println() is a method present in print stream class
 ---------------------------------------------------------------------------------------------------------------------------
 Terminologies
-   |
+
+
+1)
 datatypes
    |-----------------------------------------------------------------------------------------------------|
 primitive                                                                                           non primitive
@@ -153,7 +155,115 @@ Boolean             character             integral
                     |----------|----------|----------|                                  |---------------|
                     Byte      short      int      long                               float           double
                                            
+
+type                description                   default             size                range
+
+Boolean             true/false                    false               1bit                true/false
+byte                2's complement integer        0                   8bit                -128 to 127
+char                unicode character             1u0000              16 bit              ascii value 0 to 255
+short               2's complement integer        0                   16 bit              -32,768 to 32,767
+int                 2's complement integer        0                   32 bit              -2,147,483,648 to 2,147,483,647
+long                2's complement integer        0                   64 bit              -9,223,372..808 to 9,223,372..808
+float               1EEE 754 floating point       0.0                 32 bit              upto 7 decimal digits
+double              1EEE 754 floating point       0.0                 64 bit              upto 16 decimal digits
 ---------------------------------------------------------------------------------------------------------------------------
 
+2)
+variables : location in memory to hold your data
 
+there are 4 types of variables
+a)instance variables[non static variable]
+b)class variables[static variable]
+c)local variables
+d)parameters and arguments
+-----------
+a)instance variables
+-Declaration - inside the class but outside method, constructor or blocks
+-used - inside all method, blocks, and constructer within a class[not inside the static method]
+-when variables gets allocated - when objects is created variables allocated
+-stored memory - heap memory
+-default values - boolean=false         int=0     objects=null
+-access specifers- can be used
 
+propertiesof instance variables
+1) instance variables always get a default value
+2) cannot be reinitialized directly within class but can be in the method
+
+example
+class Test
+{
+int a=10;
+static int b=20;
+public static void main(String...args)
+{
+Test ob1=new Test();
+Syso(a);//error
+Syso(ob1.a);
+Syso(b);//error
+Syso(ob1.b);
+}
+}
+
+rules
+1)can be marked final
+2) can have 4 access modifers
+public private protected [default also]
+3)can't have static modifers
+-----------
+b)local variables
+-Declaration - inside method, constructor, or, blocks;
+-use - inside all the above not outside them;
+-when variables gets allocated - when method constructor or blocks gets executed
+-stored memory - stack memory
+-default values - dosen't have any default value should be provided before use
+-access - can't be used
+
+example
+public class Test
+{
+public void pupAge()
+{
+int age;
+age=age+7;
+System.out.println("puppy age is "+age);
+}
+
+public static void main(String...args)
+{
+Test test=new Test();
+test.pupAge();
+}
+}
+//error variable number might not have been initalized
+------------
+c)static variable
+-same as instance variable but few change
+-use - including static memory
+-stored memory - static memory
+
+example
+class Abc
+{
+int a=10;
+static int b=20;
+public static void main(String...args)
+{
+Abc ob1=new Abc();
+System.out.println(ob1.a);    //10
+System.out.println(ob1.b);    //20
+ob1.a=1000;
+ob2.b=2000;
+System.out.println(ob1.a);    //1000
+System.out.println(ob1.b);    //2000
+Abc ob2=new Abc();
+System.out.println(ob2.a);    //10
+System.out.println(ob2.b);    //2000
+}
+}
+----------------
+d)parameters and arguments
+
+arguments - is a value passed to a function when the function is called, when any function is called  during the execution of the program there are some values passed with the function .these values are called arguments
+
+public class Example
+{
