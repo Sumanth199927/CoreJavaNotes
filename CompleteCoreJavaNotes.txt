@@ -1,3 +1,15 @@
 Java
-
+---------------------------------------------------
 Crearted by sunmicroSystem in 1991
+java 1.0 created in 1996
+---------------------------------------------------
+it is a programming language design to run on virtual machine on every platform
+---------------------------------------------------
+oak-green-java
+----------------------------------
+comparing other language
+
+java-high language,object oriented programming language
+c-procedural programming language
+c++ - procedural and object oriented programming language
+---------------------------------------------------
