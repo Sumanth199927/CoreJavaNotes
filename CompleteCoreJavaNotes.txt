@@ -13,3 +13,60 @@ java-high language,object oriented programming language
 c-procedural programming language
 c++ - procedural and object oriented programming language
 ---------------------------------------------------
+jdk
+
+to develop and run a java application environment
+---------------------------------------------------
+jre
+
+to only run java application environment
+---------------------------------------------------
+jvm
+
+to run the java program line by line 
+---------------------------------------------------
+
+jdk
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+-  ----------------------------------------------------------------------------------------------------------------------------------------------------- -
+-  -                                                                                                                                                    - -    
+-  -                                                                                                                                                     -   
+-  -                                                                                                                                                     -
+-  -                                                                                                                                                     -
+-  -                                                                                                                                                     -
+-  -                                                                                                                                                     -
+-  -                                                                                                                                                     -
+-  ----------------------------------------------------------------------------------------------------------------------------------------------------- -
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+how it works and converted
+---------------------------------------------------------------
+java sorce file[.java]
+
+java complier[compile]
+
+java class file[.class file]
+
+import class loader subsystem
+
+various memory areaof jvm
+          |
+execution | engine
+          |
+        interpreter
+        
+native method interface <----------------- native method library
+
+-----------------------------------------------------------------------------------------
+to develop android developments
+1.java enterprise edition[jee]
+2.java micro edition[jme]
+
+to develop web application
+1.jsp-order,results
+2.jdbc-get data while processing
+3.servelets-processing
+-----------------------------------------------------------------------------------------
+
+
