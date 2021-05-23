@@ -1,1 +1,54 @@
+what is react js? Why would we use it?
 
+-A JavaScript Library for building user interfaces
+-when you see the Netflix It used this reactr js it will be so smooth transition
+-Traditionally , in web spps, you click a link  and wait for a new page to load ,You click a button and wait for some action to complete
+-request and response cycle can be breaken by javascript 
+-javaScript runs in the browser -on the loaded page
+-so need of react
+-You can manipulate the html Structure [DOM] of tne page
+-no[visible] request to the server required , no need to wait for a new html page as a response
+
+     react.js
+        |
+        |------------------------------------------------|
+a client-side js library        all about building modern reactiveuser interface for the web
+------------------------------------------------------------------------------------------------------------------------------------------
+why recat instead of js?
+
+declarative ,component-focused approach
+------------------------------------------------------------------------------------------------------------------------------------------
+Building single page application[spa]?
+
+React can be used to control parts of html or entire pages.                         React can also be used to control the entire frontend of a web application
+
+widget approach on a multipage-application[some] page are                          single-page-appliaction [spa] approach.Server only seend one html page ,therefore  
+still rendered on and served by a backend server by a backend server                react takes over and control the ui 
+------------------------------------------------------------------------------------------------------------------------------------------
+react.js alternatives
+
+lean and focused components based ui library .certain features are added via community packages.
+example Angular Uses typescript
+example vue.js have most core features
+------------------------------------------------------------------------------------------------------------------------------------------
+About this Course SUmmary
+
+Basics and foundation
+-----------------------------------
+components and building UIs
+working with events And data:"props" and "state"
+styling react "Apps" and components
+intro into "react hooks"
+----------------------------------
+Advanced concepts
+-----------------------------------
+side effects "refs" and more hooks
+react context API and redux
+forms http request & custom hooks
+routing deployment nextJS and more
+--------------------------------
+summaries and refreshers
+-----------------------------
+js
+reactjs summary
+------------------------------------------------------------------------------------------------------------------------------------------
